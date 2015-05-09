@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Intro to Programming Project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- This is a comment-->
+<head>
+  <h1>Unit 1 - Basics of Web</h1>
+</head>
+<h2>What is the World Wide Web?</h2>
+<b>The major pieces</b>
+<!-- I hope we touch on proper use of comments in this course. It's going to look like I'm using them jokingly in this project, but professionally I use them for reminders and for further explanation for the next person who touches the project.-->
+<ul>   
+ <li>The first major piece of the web is actually three pieces: you and your computer and the browser. Simply, you go to a page with your computer using a browser.<li>The Internet is made up of different types of documents, but the main type is HTML, or HyperText Markup Language documents. The links between the 30 Billion html and other documents are what make the web "web-like".<li>Other major pieces of the web are http protocol and the servers.
+</li></ul>
+<br><br> 
+<!--Since these are "notes", an outline format seems a natural fit (taking notes on html In html is challenging)-->
+
+<b> HTML</b>
+<ul> 
+<li>We are going to look closer at one of these major pieces. HTML is made up of: text content, markup, tags that are both block and in-line, references to documents and links to other pages.
+<li>Text content, or plain text, pretty much looks just like plain text in HTML. But if you type a space in HTML, weather you type two spaces or                                                         fifty, they will render on the page as one space.
+<li>So we must use markup to control what our text will look like. 
+ <li>Opening and closing tags will surround text content. The whole statement from tag to tag is an element.
+         <ul><li>b is a simple markup tag, created by putting a b in <> brackets. If I type it in here <b> like this</b> you won't see it, because my page is reading the html and using the markup to make my text bold. You indicate what text should become bold by putting the opening or b tag in brackets, before the word "like", and you complete the tag by putting a /b in <> brackets after the word "this". 
+          <li>If you don't close a tag everything after it will be in that style, until the page ends. This is a good example of how literal computers are - our mistakes as programmers won't be forgiven by the computer as it reads our markup and renders it on the page. In fact our mistake will be there, perhaps in bold, for all to see. <!-- instructor makes IE joke - never can tell with some browsers why they do things -->
+        <li>In this lesson, I finally learned why italics is 'em'. <em> Because it stands for emphasis</em>, not italics.
+   </ul>
+   <li>HTML is reasonably straightforward
+        <li>Other HTML attributes include 
+  <ul><li> The 'a' anchor tag. The anchor tag is used when you want to link text to a url - something you're going to do over and over again while making web pages. To create a link that will allow a user to go to cnn.com when they click the text CNN, put a href=www.cnn.com in brackets in front of "CNN", then close the anchor tag with /a in <> brackets. It will look like this:  This is <a href=www.cnn.com>CNN</a>.
+          <li> The image tag looks something like this 'img src="url" alt= "text" with <> brackets. There are no closing tags for images because it is a 'void' tag with no content.
+          <li> Another example of a void tag is br in <> brackets, also known as an inline break. /n is also an inline tag, called newline. As we noted before, two spaces or sixty spaces will show up as one space in HTML. In order to break a line, you will have to use br or /n
+          like this: <br> Let's put a nice line break in there.
+         <li><p> Alternately, you can use a p in <> brackets. The p tag is a block element, not inline It creates 'invisible boxes'. It is NOT a void tag, so you will need to close it with a /p in <> brackets.   And using it looks like this.                 </p><p>Looking good, p tag.</p>
+</ul>
+<!-- HTML markup in this project isn't indented very well. Partly because I'm using codepen and the little html window is small and I'd rather view my text in the large window, and partly because I need instruction in this area! I'm here for a reason, people. -->
+</ul>   <b>placeholder for future topics in this section</b><ul>   <li> urls
+            <li> http
+              <li>web applications
+             <!--  <li> why there are so many cats on the Internet (future course, probably) -->
+</ul>
+<!--  <h2>Misc (questions for the instructor/group)</h2>
+<li> everything on the Internet is boxes <!-- Insert pic of Maru
+  <li> submit these notes for personalized feedback
+    <li> my instructor is a co-founder of Reddit -- Insert inside Reddit joke here 
+      <li>question about handbook: how to cite websites, etc if referred to for student work - prolly answered in a faq/forum, so, note to self, look that up
+
+        <li> uh oh, my timeline is from Feb yikes...
+          <li> if you put two br tags together, are they no longer in-line? or each is in-line  - so is using them to create a block element incorrect? or just like you can open word with a click or a keyboard shortcut - a different way to do it? If it works, could still be a "wrong" way to do things...  -->
+
+</body>
+
+</html>
